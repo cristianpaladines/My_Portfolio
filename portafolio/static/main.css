@@ -1,0 +1,18 @@
+body {
+    background-color: teal;
+}
+
+.bg-black {
+    background-color: #2c2f73;
+}
+
+.card-project:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.imagen-cv {
+    width: 100px;
+    height: 100px;
+}
+
