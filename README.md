@@ -5,14 +5,15 @@
 
 Este es un proyecto de portafolio personal construido principalmente con Django, en el que se muestra información acerca de mi experiencia, habilidades y algunos proyectos.
 
-Requerimientos del sistema
-Para ejecutar este proyecto, se requiere lo siguiente:
+# Requerimientos del sistema
+Para ejecutar correctamente este proyecto, se requiere lo siguiente:
 
-Python 3.10 o superior
-Django 4.1 o superior
-Otros requerimientos se encuentran en el archivo requirements.txt.
-Instalación y configuración
-Clona este repositorio en tu máquina local con el comando git clone https://github.com/tu-usuario/mi-portafolio.git.
+- Python 3.10 o superior
+- Django 4.1 o superior
+- Otros requerimientos se encuentran en el archivo requirements.txt.
+
+# Instalación y configuración
+Primero se debe clonar este repositorio en tu máquina local con el comando git clone https://github.com/cristianpaladines/My_Portfolio.git
 
 Abre una terminal en el directorio donde clonaste el repositorio y crea un entorno virtual de Python con el comando python3 -m venv env. Luego, activa el entorno virtual con el comando source env/bin/activate (en Unix/MacOS) o env\Scripts\activate (en Windows).
 
