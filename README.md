@@ -15,19 +15,28 @@ Para ejecutar correctamente este proyecto, se requiere lo siguiente:
 # Instalación y configuración
 Primero se debe clonar este repositorio en tu máquina local con el comando git clone https://github.com/cristianpaladines/My_Portfolio.git
 
-Abre una terminal en el directorio donde clonaste el repositorio y crea un entorno virtual de Python con el comando python3 -m venv env. Luego, activa el entorno virtual con el comando source env/bin/activate (en Unix/MacOS) o env\Scripts\activate (en Windows).
+Luego se debe abrir una terminal en el directorio donde se clonó el repositorio y cree un entorno virtual de Python con el comando python3 -m venv env. Luego, se activa el entorno virtual con el comando source env/bin/activate (en Unix/MacOS) o env\Scripts\activate (en Windows).
 
-Instala las dependencias necesarias con el comando pip install -r requirements.txt.
-
-Realiza las migraciones de la base de datos con el comando python manage.py migrate.
-
-Crea un superusuario para acceder al panel de administración de Django con el comando python manage.py createsuperuser.
-
-Finalmente, inicia el servidor web local con el comando python manage.py runserver y abre el navegador web en http://localhost:8000 para ver la aplicación.
-
-Uso
-La aplicación muestra información sobre mi experiencia, habilidades y proyectos.
-Para acceder al panel de administración de Django, inicia sesión con las credenciales del superusuario que creaste anteriormente en http://localhost:8000/admin.
+Instalar las dependencias necesarias con el comando:
+```
+pip install -r requirements.txt
+```
+Realizar las migraciones de la base de datos con el comando:
+```
+python manage.py migrate
+```
+Crear un superusuario para acceder al panel de administración de Django con el comando:
+```
+python manage.py createsuperuser
+```
+Finalmente, iniciar el servidor web local con el comando: 
+```
+python manage.py runserver
+```
+y abrir el navegador web en http://localhost:8000 para ver la aplicación.
+# Uso
+Este proyecto muestra información sobre mi experiencia, habilidades y proyectos en los que he trabajado.
+Para acceder al panel de administración de Django, se debe iniciar sesión con las credenciales del superusuario que se crearon anteriormente en http://localhost:8000/admin.
 Contribución
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
