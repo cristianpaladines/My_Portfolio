@@ -34,11 +34,15 @@ Finalmente, iniciar el servidor web local con el comando:
 python manage.py runserver
 ```
 y abrir el navegador web en http://localhost:8000 para ver la aplicación.
+
 # Uso
+
 Este proyecto muestra información sobre mi experiencia, habilidades y proyectos en los que he trabajado.
 Para acceder al panel de administración de Django, se debe iniciar sesión con las credenciales del superusuario que se crearon anteriormente en http://localhost:8000/admin.
-Contribución
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+# Contribución
+
+Si desea contribuir a este proyecto, por favor sigue los siguientes pasos:
 
 Haz un fork de este repositorio.
 
@@ -48,7 +52,4 @@ Realiza los cambios necesarios y haz commit de tus cambios con mensajes descript
 
 Envía un pull request a este repositorio para revisión.
 
-Licencia
-Este proyecto está bajo la Licencia MIT. Para más información, revisa el archivo LICENSE.
-
-Espero que este ejemplo te sea útil para escribir tu propio archivo README para tu proyecto de portafolio con Django. Recuerda que el archivo README es una parte importante de cualquier proyecto, ya que ayuda a otros desarrolladores a entender rápidamente lo que hace el proyecto y cómo pueden contribuir.
+# Autor: Cristian Camilo Paladines
